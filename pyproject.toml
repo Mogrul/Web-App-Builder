@@ -1,0 +1,16 @@
+[project]
+name = "webapp-builder"
+version = "0.1.0"
+description = "Generate standalone desktop apps from website URLs"
+requires-python = ">=3.12"
+dependencies = [
+    "pyinstaller>=6.22.3",
+    "pywebview>=6.2.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.0,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = true

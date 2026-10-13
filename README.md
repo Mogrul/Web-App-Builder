@@ -41,7 +41,7 @@ uv sync
 Run Web-App-Builder with a website URL and application name:
 
 ```bash
-uv run python -m web_app_builder "https://example.com" --name Example
+uv run python -m webapp_builder "https://example.com" --name Example
 ```
 
 Replace the URL with the website you want to turn into an application.
@@ -59,19 +59,19 @@ Replace the URL with the website you want to turn into an application.
 **Create an application without a custom icon:**
 
 ```bash
-uv run python -m web_app_builder "https://example.com" --name Example
+uv run python -m webapp_builder "https://example.com" --name Example
 ```
 
 **Create a Plex application:**
 
 ```bash
-uv run python -m web_app_builder "http://192.168.0.103:32400/" --name Plex
+uv run python -m webapp_builder "http://192.168.0.103:32400/" --name Plex
 ```
 
 **Create an application with a custom icon:**
 
 ```bash
-uv run python -m web_app_builder "https://example.com" --name Example --icon icons/example.ico
+uv run python -m webapp_builder "https://example.com" --name Example --icon icons/example.ico
 ```
 
 Icon paths can be absolute or relative to the current working directory.
